@@ -1,0 +1,72 @@
+body
+{
+background-color:black;
+}
+h1{
+font-family:helvetica;
+color:#000000;
+}
+header
+{
+
+}
+#banner1 nav
+{
+background-color:#5b7989;
+text-shadow:1px 3px 5px white;
+heigth:200px;
+border-radius:10px 10px 0 0;
+}
+#banner2 nav
+{
+background-color:#C6d5c5;
+text-shadow:1px 3px 5px white;
+heigth:200px;
+border-radius:0 0 10px 10px;
+
+}
+.iprincipal
+{
+border-radius:10px;
+float:left;
+width:100px;
+}
+.imagen1
+{
+-webkit-filter:blur(10px);
+filter:blur(10px);
+}
+.imagen2
+{
+-webkit-filter:grayscale(100%);
+filter:grayscale(100%);
+
+}
+.imagen3
+{
+-webkit-filter:opacity(90px);
+filter:opacity(90px);
+
+}
+.imagen4
+{
+-webkit-filter:grayscale(100%);
+filter:grayscale(100%);
+
+}
+.imagen6
+{
+-webkit-filter:grayscale(100%);
+filter:grayscale(100%);
+}
+.imagen7
+{
+width:50px;
+}
+.imagen8
+{
+width:10px;
+}
+
+
+

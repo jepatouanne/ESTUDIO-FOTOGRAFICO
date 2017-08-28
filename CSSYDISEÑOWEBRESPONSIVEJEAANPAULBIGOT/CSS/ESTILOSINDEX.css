@@ -1,0 +1,96 @@
+*
+{
+display:-webkit-flex;
+display:flex;
+-webkit-flex-flow:row wrap;
+flex-flow:row wrap;
+box-sizing:border-box;
+}
+body
+{
+background-color:black;
+}
+.cntenedor
+{
+linear-gradient(to rigth);
+text-align:center;
+}
+h1{
+font-family:helvetica;
+color:#000000;
+
+}
+h2
+{
+font-size:10px;
+}
+header
+{
+
+}
+#banner1 nav
+{
+background-color:#5b7989;
+
+text-shadow:1px 3px 5px white;
+heigth:200px;
+border-radius:10px 10px 0 0;
+}
+#banner2 nav
+{
+background-color:#C6d5c5;
+text-shadow:1px 3px 5px white;
+heigth:200px;
+border-radius:0 0 10px 10px;
+}
+
+.iprincipal
+{
+border-radius:10px;
+float:left;
+width:100px;
+-webkit-filter:drop-shadow(2px 2px 2px #02010a);
+filter:drop-shadow(2px 2px 2px #02010a);
+}
+
+.imagen1
+{
+-webkit-filter:drop-shadow(2px 2px 2px #02010a);
+filter:drop-shadow(2px 2px 2px #02010a);
+width:90%;
+}
+
+.imagen2
+{
+-webkit-filter:drop-shadow(2px 2px 2px #02010a);
+filter:drop-shadow(2px 2px 2px #02010a);
+width:50%;
+transition: background 1s;
+animation: mianimacion 3s infinite;
+}
+@-webkit-keyframes mianimacion{
+from{
+transform:rotate(45deg);
+}
+to{
+heigth:0;
+}
+}
+
+
+.imagen3
+{
+-webkit-filter:drop-shadow(2px 2px 2px #02010a);
+filter:drop-shadow(2px 2px 2px #02010a);
+width:50%;
+transition: background 1s;
+animation: mianimacion 3s infinite;
+}
+@-webkit-keyframes mianimacion{
+from{
+transform:rotate(90deg);
+}
+to{
+heigth:0;
+}
+}
